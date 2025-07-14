@@ -1,0 +1,125 @@
+
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #000000;
+  border-bottom: 1px solid #333;
+}
+
+.logo {
+  height: 50px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav a:hover {
+  color: #F7941E;
+}
+
+.hero {
+  padding: 4rem 2rem;
+  text-align: center;
+  background-color: #111;
+}
+
+.cta-button {
+  background-color: #F7941E;
+  color: #000;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+.section {
+  padding: 3rem 2rem;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.card {
+  background-color: #1a1a1a;
+  padding: 1.5rem;
+  border-radius: 12px;
+  width: 280px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  background-color: #222;
+}
+
+.contact-form, .login-form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact-form input,
+.login-form input,
+.contact-form textarea {
+  padding: 0.8rem;
+  border-radius: 6px;
+  border: none;
+  font-size: 1rem;
+}
+
+.contact-form button,
+.login-form button {
+  background-color: #F7941E;
+  color: #000;
+  font-weight: 600;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.footer {
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.9rem;
+  color: #888;
+  background-color: #111;
+}
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #F7941E;
+  color: #000;
+  padding: 0.8rem 1.2rem;
+  border-radius: 30px;
+  font-weight: bold;
+  z-index: 999;
+}

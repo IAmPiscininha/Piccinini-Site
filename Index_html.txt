@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Piccinini Gestão Condominial</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="header">
+    <img src="img/logo_piccinini_resized.png" alt="Logo Piccinini" class="logo" />
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#solucoes">Soluções</a></li>
+        <li><a href="#suporte">Suporte</a></li>
+        <li><a href="#aprenda">Aprenda</a></li>
+        <li><a href="#contato">Fale Conosco</a></li>
+        <li><a href="#login">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <h1>Transformando a gestão do seu condomínio</h1>
+    <p>Confiança, transparência e inovação desde o primeiro clique.</p>
+    <a href="#contato" class="cta-button">Solicite uma proposta</a>
+  </section>
+
+  <section id="solucoes" class="section">
+    <h2>Soluções</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Gestão Financeira</h3>
+        <p>Controle total das finanças do seu condomínio com clareza e segurança.</p>
+      </div>
+      <div class="card">
+        <h3>Atendimento Rápido</h3>
+        <p>Canal direto com suporte ágil para síndicos e moradores.</p>
+      </div>
+      <div class="card">
+        <h3>Suporte Técnico</h3>
+        <p>Equipe preparada para resolver problemas com eficiência.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="suporte" class="section">
+    <h2>Suporte</h2>
+    <p>Confira as perguntas frequentes ou entre em contato diretamente:</p>
+    <a href="https://wa.me/seunumerodowhatsapp" class="whatsapp-button">Falar no WhatsApp</a>
+  </section>
+
+  <section id="aprenda" class="section">
+    <h2>Aprenda</h2>
+    <p>Artigos e dicas para síndicos, moradores e administradores se atualizarem sobre gestão condominial.</p>
+    <ul>
+      <li><a href="#">Como escolher uma administradora eficiente</a></li>
+      <li><a href="#">5 erros comuns na gestão de condomínios</a></li>
+    </ul>
+  </section>
+
+  <section id="contato" class="section">
+    <h2>Fale Conosco</h2>
+    <form action="#" method="POST" class="contact-form">
+      <input type="text" placeholder="Seu nome" required />
+      <input type="email" placeholder="Seu e-mail" required />
+      <textarea placeholder="Sua mensagem"></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <section id="login" class="section">
+    <h2>Login</h2>
+    <form action="#" method="POST" class="login-form">
+      <input type="email" placeholder="E-mail" required />
+      <input type="password" placeholder="Senha" required />
+      <button type="submit">Entrar</button>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 Piccinini Gestão Condominial. Todos os direitos reservados.</p>
+  </footer>
+
+  <a href="https://wa.me/seunumerodowhatsapp" class="whatsapp-float" target="_blank">WhatsApp</a>
+</body>
+</html>
